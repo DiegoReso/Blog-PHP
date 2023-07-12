@@ -15,7 +15,20 @@ include_once("helpers/url.php");
 </head>
 
 
-<header>Template Cabecalho</header>
+<header>
+  <a href="<?=$BASE_URL?>">
+    <img src="<?=$BASE_URL?>img/logo.svg" alt="blog coding x">
+  </a>
+  <nav>
+    <ul id="navbar">
+      <li><a href="<?=$BASE_URL?>">Home</a></li>
+      <li><a href="#">Categorias</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="<?=$BASE_URL?>contato.php">Contato</a></li>
+
+    </ul>
+  </nav>
+</header>
 
 
 <body>
