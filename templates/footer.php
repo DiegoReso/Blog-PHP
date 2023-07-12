@@ -1,5 +1,5 @@
 <footer>
-  <p>Feito com S2 Diego</p>
+  <p>Feito com S2</p>
 </footer>
 </body>
 
